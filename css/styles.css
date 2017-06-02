@@ -1,0 +1,11 @@
+.result {
+  display: none;
+}
+
+.beast, .belle, .potts {
+  display: none;
+}
+
+body {
+  background-color: yellow;
+}

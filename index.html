@@ -8,75 +8,89 @@
     <title>Which Character Are You?</title>
   </head>
   <body>
-    <h1>Which Beauty and the Beast Character Are You?</h1>
-    <h3>Pick the choice that most closely describes yourself:</h3>
-    <form>
-      <h2>Hobby</h2>
-      <div class="hobby-group">
-        <div class="radio">
-          <label>
-            <input type="radio" name="hobby" value="Reading" checked>
-            Reading
-          </label>
+    <div class="container">
+      <h1>Which Beauty and the Beast Character Are You?</h1>
+      <form>
+        <h3>Pick the choice that most closely describes yourself:</h3>
+        <br>
+        <h4>Hobby</h4>
+        <div class="hobby-group">
+          <div class="radio">
+            <label>
+              <input type="radio" name="hobby" value="Reading" checked>
+              Reading
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="hobby" value="Cooking">
+              Cooking
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="hobby" value="Gardening">
+              Gardening
+            </label>
+          </div>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="hobby" value="Cooking">
-            Cooking
-          </label>
+        <br>
+        <h4>Food</h4>
+        <div class="food-group">
+          <div class="radio">
+            <label>
+              <input type="radio" name="food" value="Meat" checked>
+              Meat
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="food" value="Veggies">
+              Veggies
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="food" value="Dessert">
+              Dessert
+            </label>
+          </div>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="hobby" value="Gardening">
-            Gardening
-          </label>
+        <br>
+        <h4>Dwelling</h4>
+        <div class="dwelling-group">
+          <div class="radio">
+            <label>
+              <input type="radio" name="dwelling" value="Castle" checked>
+              Castle
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="dwelling" value="Cupboard">
+              Cupboard
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="dwelling" value="Cottage">
+              Cottage
+            </label>
+          </div>
         </div>
+        <br>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <div class="result">
+        <h3>Based on your choices</h3>
+        <p><span class="hobby-choice"></span></p>
+        <p><span class="food-choice"></span></p>
+        <p><span class="dwelling-choice"></span></p>
+        <h3>Your character is</h3>
+        <img class ="beast" src="img/beast.jpeg" alt="image of Beast">
+        <img class = "belle" src="img/belle.jpg" alt="image of Belle">
+        <img class = "potts" src="img/potts.png" alt="image of Mrs. Potts">
       </div>
-      <h2>Food</h2>
-      <div class="food-group">
-        <div class="radio">
-          <label>
-            <input type="radio" name="food" value="Meat" checked>
-            Meat
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="food" value="Veggies">
-            Veggies
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="food" value="Dessert">
-            Dessert
-          </label>
-        </div>
-      </div>
-      <h2>Dwelling</h2>
-      <div class="dwelling-group">
-        <div class="radio">
-          <label>
-            <input type="radio" name="dwelling" value="Castle" checked>
-            Castle
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="dwelling" value="Cupboard">
-            Cupboard
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="dwelling" value="Cottage">
-            Cottage
-          </label>
-        </div>
-      </div>
-      <button type="submit" class="btn">Submit</button>
-    </form>
-
-
+    </div>
   </body>
 </html>
